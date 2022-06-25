@@ -1,0 +1,161 @@
+html{
+    background: black;
+}
+
+
+input[type="text"], textarea {
+
+    background-color : #343D4C; 
+    border: 1px  white;
+    border-radius: 5px;
+    color:white;
+    text-align: center;
+  }
+input.options:hover{
+    cursor:pointer;
+}
+
+  
+
+
+body{
+    color:white;
+    font-family:sans-serif;
+}
+
+.main{
+    border-radius: 5px;
+    padding-top:45px;
+    margin:auto;
+    height:50vh;
+    width: 25%;
+    margin-top:15vh;
+    background: #1F2937;
+    overflow:auto;
+    padding-left:23px;
+    padding-right:23px;
+}
+
+.generator{
+    letter-spacing: 1px;
+    font-family:karla;
+    font-size:35px; 
+    margin-bottom:4px;
+    font-weight:bolder;
+}
+
+
+
+.ra{
+    color: #7C3AED;
+    margin-top:-5px;
+}
+
+.lmao{
+    opacity: 83%;
+    font-size:16px;
+    margin-bottom: 20px;
+    font-family: Inter, sans-serif;
+    font-weight: lighter;
+}
+
+.lengthof{
+    font-family: karla, sans-serif;
+}
+
+#lengthki{
+    margin-left:2px;
+    margin-bottom:12px;
+    font-family:Inter, sans-serif;
+    font-size:12px;
+    opacity:100%;
+}
+
+#hehe{
+    margin-top:-4px;
+    height:35px;
+    border:none;
+    border-radius: 7px;
+    font-family:Inter, sans-serif;
+    background: #7C3AED;
+    color:white;
+    
+}
+
+#hehe:hover{
+    cursor: pointer;
+    background: #8B5CF6;
+}
+
+#hehe:active{
+    background: #7C3AED;
+
+
+
+}
+
+
+hr{
+    border:0.01px solid grey;
+    margin-top: 15px;
+    background: grey;
+    opacity: 75%;
+    width:97%;
+    margin-bottom: 10px;
+}
+
+.cool{
+    font-family: Inter;
+    font-size:11px;
+    opacity:50%;
+    margin-bottom: 9px;
+}
+
+.options{
+
+    
+    height:28px;
+    margin-bottom: 12px;
+    
+    font-family:Inter, sans-serif;
+    font-size:12px;
+    opacity:97%;
+    
+}
+
+#op1,#op3{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    float:left;
+    
+    
+}
+
+#op2, #op4{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    float:right;
+}
+
+@media(max-width:1410px){
+    .options{
+        display:block;
+        margin-left:auto;
+        margin-right:auto;
+    }
+
+    #op1,#op2,#op3,#op4{
+        float:none;
+
+    }
+
+
+
+    .main{
+        height:70vh;
+        width:30vh;
+
+    }
+}
