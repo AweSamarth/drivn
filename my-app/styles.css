@@ -51,6 +51,7 @@ nav{
 
 
 a{
+    color:white;
     text-align: center;
     align-items: center;
     align-content:center;
@@ -59,7 +60,15 @@ a{
     margin-left:23px;
 }
 
-
+nav a{
+    border: 1px solid transparent;
+    transition: border 200ms;
+     
+}
+nav a:hover{
+    border: 1px solid white;
+     
+}
 #navlogo{
     width:200px;
     margin:0px;
@@ -80,11 +89,11 @@ main{
     line-height:1.4em;
     font-size:1.1em;
     letter-spacing: 1.02px;
-    padding-right:40%;
+    padding-right:50%;
 }
 
-.prblm{
-    align-content:center;
+.image{
+    border-radius: 7px;
     width:50%;
     height:400px;
     object-fit: cover;
@@ -92,4 +101,8 @@ main{
 
 h2{
     font-size: 2em;
+}
+
+#mailer{
+    margin-left:0
 }
