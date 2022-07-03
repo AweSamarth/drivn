@@ -1,23 +1,29 @@
 *{
-    margin:0;
-    padding:0;
+    box-sizing: border-box;
 }
 
 
 body{
-    background-color: black;
-    color:white;
+    margin:0;
+    padding:0;
+    background:black;
+    color:rgb(233, 233, 233);
     font-family:sans-serif;
 }
 
-nav{
-    position:fixed;
-    top:1%;
+nav{    
+    background-color: #0C0032;
+    padding:0.25%;
+    padding-left:0.5%;
+    padding-right:1%;
+    position: fixed;
+    top:0%;
     width: 100%;
     display: flex;
     align-items: center  ;
     /* border: 1px solid white; */
     justify-content: space-evenly;
+    
 
 
 
@@ -25,25 +31,32 @@ nav{
 
 
 #exc{
+    margin-left:0.75%;
     /* border: 1px solid white; */
     display:flex;
-    justify-content: space-between;
     width:50%;
     float:left;
     
 }
 
 #notexc{
+    align-items: center;
+    margin-right:0.75%;
+    /* border:1px solid white; */
     width:50%;
     display:flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 
 }
 
+
 a{
+    text-align: center;
+    align-items: center;
+    align-content:center;
     cursor: pointer;
     /* border: 1px solid white; */
-    padding:1%;
+    margin-left:23px;
 }
 
 
@@ -54,10 +67,29 @@ a{
 }
 
 #exception{
-    padding:0%;
-    margin-left:-1.5%;
+    margin-left:-1.8%;
 }
 
 main{
-    margin-top:9%;
+    
+    padding:1.5%;
+    margin-top:75px;
+}
+
+.section p{
+    line-height:1.4em;
+    font-size:1.1em;
+    letter-spacing: 1.02px;
+    padding-right:40%;
+}
+
+.prblm{
+    align-content:center;
+    width:50%;
+    height:400px;
+    object-fit: cover;
+}
+
+h2{
+    font-size: 2em;
 }
