@@ -13,6 +13,7 @@ body{
 
 nav{    
     background-color: #0C0032;
+    opacity: 95%;
     padding:0.25%;
     padding-left:0.5%;
     padding-right:1%;
@@ -31,22 +32,28 @@ nav{
 
 
 #exc{
-    margin-left:0.75%;
     /* border: 1px solid white; */
     display:flex;
     width:50%;
     float:left;
+
+}
+
+#exc img{
+    max-width:100%;
+    object-fit: cover;
     
 }
 
 #exc a{
     padding:0;
+    margin:0;
 
 }
 
 #notexc{
     align-items: center;
-    margin-right:0.75%;
+    margin-right:2%;
     /* border:1px solid white; */
     width:50%;
     display:flex;
@@ -66,9 +73,14 @@ a{
 }
 
 nav a{
-    padding: 4px;px;
+    
+    padding-top: 8px;
+    padding-bottom:8px;
     border: 1px solid transparent;
     transition: color 200ms;
+    font-size:1em;
+    word-break: break-word;
+
      
 }
 nav a:hover{
