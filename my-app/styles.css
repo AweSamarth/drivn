@@ -129,14 +129,20 @@ h2{
     color:white;
     border-radius: 5px;
     background:linear-gradient(to right, #3500D3,#240090);
-    padding:18px 40px 18px 40px;
+    /* padding:18px 40px 18px 40px; */
     float:right;
+    text-align: center;
     font-family:sans-serif;
-    font-size: 1.02em;
+    font-size: 19px;
     cursor:pointer;
+    height:50px;
+    width: 200px;
     margin-top:-22px;
+    transition:font-size, 200ms;
 }
-
+[type="button"]:hover{
+    font-size:20px;
+}
 .icon{
     font-size: large;
 }
