@@ -68,11 +68,11 @@ a{
 nav a{
     padding: 4px;px;
     border: 1px solid transparent;
-    transition: border 200ms;
+    transition: color 200ms;
      
 }
 nav a:hover{
-    border: 1px solid white;
+    color: #865dff;
      
 }
 #navlogo{
