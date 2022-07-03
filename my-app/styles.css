@@ -39,6 +39,11 @@ nav{
     
 }
 
+#exc a{
+    padding:0;
+
+}
+
 #notexc{
     align-items: center;
     margin-right:0.75%;
